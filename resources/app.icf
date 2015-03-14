@@ -1,6 +1,9 @@
 [S3E]
 MemMgrMaxAllocWarning=0
 DispFixRot=FixedPortrait
+SplashScreenFile = "textures/dragon.jpg" 
+SplashScreenWidth = 480 
+SplashScreenHeight = 720 
 
 
 [GL]

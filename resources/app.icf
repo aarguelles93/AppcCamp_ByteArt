@@ -9,4 +9,4 @@ VirtualHeight = 720
 VirtualLetterbox = 1
 
 [QUICK]
-mainFilename="main.lua"
+mainFilename="main.lua"	

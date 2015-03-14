@@ -8,7 +8,7 @@ function gotoGame(event)
 end
 
 -- Set Background
-local background = director:createSprite(director.displayCenterX, director.displayCenterY, "textures/menu_bkg.jpg")
+background = director:createSprite(director.displayCenterX, director.displayCenterY, "textures/backgrounds/backgroundMenu.jpg")
 background.xAnchor = 0.5
 background.yAnchor = 0.5
 -- Fit background to screen size

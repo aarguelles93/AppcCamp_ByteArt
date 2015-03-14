@@ -10,13 +10,13 @@ audio:playStream("audio/POL-spiritdance.mp3", true)
 
 function switchToScene(scene_name)
 	if (scene_name == "game") then
-		director:moveToScene(game.gameScene, {transitionType="slideInL", transitionTime=0.5})
+		director:moveToScene(game.gameScene, {transitionType="pageTurn", transitionTime=0.5})
 	elseif (scene_name == "main") then
-		director:moveToScene(menuScene, {transitionType="slideInL", transitionTime=0.5})
+		director:moveToScene(menuScene, {transitionType="pageTurn", transitionTime=0.5})
 	elseif (scene_name == "pause") then
-		director:moveToScene(pauseScene, {transitionType="slideInL", transitionTime=0.5})
+		director:moveToScene(pauseScene, {transitionType="pageTurn", transitionTime=0.5})
 	elseif (scene_name == "sub") then
-		director:moveToScene(submenuScene, {transitionType="slideInL", transitionTime=0.5})
+		director:moveToScene(submenuScene)
 	end
 end
 

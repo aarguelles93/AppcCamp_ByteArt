@@ -4,6 +4,7 @@ require("game1")
 require("pauseMenu")
 require("subMenu")
 require("mainMenu")
+require("splash")
 
 audio:playStream("audio/POL-spiritdance.mp3", true)
 

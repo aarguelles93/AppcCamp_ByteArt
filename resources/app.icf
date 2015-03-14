@@ -5,7 +5,7 @@ DispFixRot=FixedPortrait
 SplashScreenBkR=237
 SplashScreenBkG=240
 SplashScreenBkB=183
-SplashScreenFile = "textures/splash1.jpg"
+SplashScreenFile = "textures/splashart/splashBrand.jpg"
 SplashScreenWidth = 480
 SplashScreenHeight = 720
 

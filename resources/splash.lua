@@ -1,3 +1,6 @@
+-- Developed by ByteArt
+--Intermediate splashart, showing the game logo
+
 splash = director:createScene()
 
 local background = director:createSprite(director.displayCenterX, director.displayCenterY, "textures/splashart/splashGame0.jpg")

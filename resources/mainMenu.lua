@@ -3,14 +3,20 @@
 
 menuScene = director:createScene()
 
-local label= director:createLabel(director.displayCenterX, (director.displayHeight - 20), 'mainMenu')
-print(director.displayHeight - label.yText)
-local playButton
-
-
 function gotoGame(event)
 	switchToScene("sub")
 end
+
+-- Set Background
+local background = director:createSprite(director.displayCenterX, director.displayCenterY, "textures/menu_bkg.jpg")
+background.xAnchor = 0.5
+background.yAnchor = 0.5
+-- Fit background to screen size
+local bg_width, bg_height = background:getAtlas():getTextureSize()
+background.xScale = director.displayWidth / bg_width
+background.yScale = director.displayHeight / bg_height
+
+
 
 local y_pos = director.displayHeight / 3
 playButton = director:createSprite(director.displayCenterX, director.displayCenterY, "textures/play.png")

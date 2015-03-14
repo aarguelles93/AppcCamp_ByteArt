@@ -1,7 +1,12 @@
 [S3E]
 MemMgrMaxAllocWarning=0
+DispFixRot=FixedPortrait
+
 
 [GL]
+VirtualWidth = 480
+VirtualHeight = 720
+VirtualLetterbox = 1
 
 [QUICK]
 mainFilename="main.lua"

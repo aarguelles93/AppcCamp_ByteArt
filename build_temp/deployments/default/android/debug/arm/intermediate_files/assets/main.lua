@@ -1,5 +1,19 @@
 -- Developed by ByteArt
 -- This is the main .lua file. It is the root file to the other parts of the app
+
+-- Set up 'exit' event listener to allow Ctrl-R functionality
+function exit(event)
+	dbg.print("unrequiring")
+	unrequire("class")
+	unrequire("game")
+	unrequire("grid")
+	unrequire("gem")
+	unrequire("mainMenu")
+	unrequire("pauseMenu")
+end
+system:addEventListener("exit", exit)
+
+
 require("game1")
 require("pauseMenu")
 require("subMenu")

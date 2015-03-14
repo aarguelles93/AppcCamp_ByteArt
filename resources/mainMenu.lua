@@ -25,3 +25,7 @@ playButton.yAnchor = 0.5
 
 
 playButton:addEventListener("touch", gotoGame)
+
+
+-- Listener for exiting the game
+system:addEventListener("exit", exit)

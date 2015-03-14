@@ -1,15 +1,15 @@
 [S3E]
 MemMgrMaxAllocWarning=0
 DispFixRot=FixedPortrait
-SplashScreenFile = "textures/dragon.jpg" 
-SplashScreenWidth = 480 
-SplashScreenHeight = 720 
+SplashScreenFile = "textures/dragon.jpg"
+SplashScreenWidth = 720, 480
+SplashScreenHeight = 1280, 720
 
 
 [GL]
 VirtualWidth = 480
 VirtualHeight = 720
-VirtualLetterbox = 1
+VirtualLetterbox = 0
 
 [QUICK]
 mainFilename="main.lua"	

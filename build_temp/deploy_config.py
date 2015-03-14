@@ -4,8 +4,8 @@
 # tool during the build process.
 
 config = {}
-cmdline = ['C:/Marmalade/7.5/s3e/makefile_builder/mkb.py', 'c:/Users/Andres Arguelles/Documents/Marmalade Projects/AppcCamp_ByteArt/AppCampProject_ByteArt.mkb', '--buildenv=QUICK', '--use-prebuilt', '--debug', '--no-ide', '--execute', '--deploy-only']
-mkb = 'c:/Users/Andres Arguelles/Documents/Marmalade Projects/AppcCamp_ByteArt/AppCampProject_ByteArt.mkb'
+cmdline = ['C:/Marmalade/7.5/s3e/makefile_builder/mkb.py', 'c:/Users/Miguel/Documents/Marmalade Projects/AppcCamp_ByteArt/AppCampProject_ByteArt.mkb', '--buildenv=QUICK', '--use-prebuilt', '--debug', '--no-ide', '--execute', '--deploy-only']
+mkb = 'c:/Users/Miguel/Documents/Marmalade Projects/AppcCamp_ByteArt/AppCampProject_ByteArt.mkb'
 mkf = ['c:\\marmalade\\7.5\\s3e\\s3e-default.mkf', 'c:\\marmalade\\7.5\\quick\\quick_prebuilt.mkf', 'c:\\marmalade\\7.5\\extensions\\s3efacebook\\s3efacebook.mkf', 'c:\\marmalade\\7.5\\modules\\iwutil\\iwutil.mkf', 'c:\\marmalade\\7.5\\modules\\third_party\\libjpeg\\libjpeg.mkf', 'c:\\marmalade\\7.5\\modules\\third_party\\libpng\\libpng.mkf', 'c:\\marmalade\\7.5\\modules\\third_party\\zlib\\zlib.mkf', 'c:\\marmalade\\7.5\\extensions\\s3ewebview\\s3ewebview.mkf', 'c:\\marmalade\\7.5\\modules\\iwbilling\\iwbilling.mkf', 'c:\\marmalade\\7.5\\extensions\\s3eamazoninapppurchasing\\s3eamazoninapppurchasing.mkf', 'c:\\marmalade\\7.5\\extensions\\s3eandroidmarketbilling\\s3eandroidmarketbilling.mkf', 'c:\\marmalade\\7.5\\extensions\\s3eandroidgoogleplaybilling\\s3eandroidgoogleplaybilling.mkf', 'c:\\marmalade\\7.5\\extensions\\s3ebbappworldbilling\\s3ebbappworldbilling.mkf', 'c:\\marmalade\\7.5\\extensions\\s3eiosappstorebilling\\s3eiosappstorebilling.mkf', 'c:\\marmalade\\7.5\\extensions\\s3ewindowsstorebilling\\s3ewindowsstorebilling.mkf', 'c:\\marmalade\\7.5\\extensions\\s3esamsunginapppurchasing\\s3esamsunginapppurchasing.mkf', 'c:\\marmalade\\7.5\\extensions\\fortumo\\fortumo.mkf', 'c:\\marmalade\\7.5\\extensions\\s3eflurry\\s3eflurry.mkf', 'c:\\marmalade\\7.5\\quick\\quick_prebuilt_options.mkf']
 
 class DeployConfig(object):
@@ -17,7 +17,7 @@ assets = {}
 
 assets['Default'] = [
     ('c:/marmalade/7.5/extensions/s3ewebview/s3eWebView.js', 's3eWebView.js', 0),
-    ('c:/Users/Andres Arguelles/Documents/Marmalade Projects/AppcCamp_ByteArt/resources', '.', 0),
+    ('c:/Users/Miguel/Documents/Marmalade Projects/AppcCamp_ByteArt/resources', '.', 0),
 ]
 
 assets['WebView32Assets'] = [
@@ -44,9 +44,9 @@ class DefaultConfig(DeployConfig):
     caption = 'AppCampProject_ByteArt'
     long_caption = 'AppCampProject_ByteArt'
     version = [0, 0, 1]
-    config = ['c:/Users/Andres Arguelles/Documents/Marmalade Projects/AppcCamp_ByteArt/resources/common.icf', 'c:/Users/Andres Arguelles/Documents/Marmalade Projects/AppcCamp_ByteArt/resources/app.icf']
-    data_dir = 'c:/Users/Andres Arguelles/Documents/Marmalade Projects/AppcCamp_ByteArt/resources'
-    mkb_dir = 'c:/Users/Andres Arguelles/Documents/Marmalade Projects/AppcCamp_ByteArt'
+    config = ['c:/Users/Miguel/Documents/Marmalade Projects/AppcCamp_ByteArt/resources/common.icf', 'c:/Users/Miguel/Documents/Marmalade Projects/AppcCamp_ByteArt/resources/app.icf']
+    data_dir = 'c:/Users/Miguel/Documents/Marmalade Projects/AppcCamp_ByteArt/resources'
+    mkb_dir = 'c:/Users/Miguel/Documents/Marmalade Projects/AppcCamp_ByteArt'
     iphone_link_lib = ['s3eFacebook', 's3eWebView', 's3eIOSAppStoreBilling', 'FlurryAnalytics', 's3eFlurry']
     osx_ext_dll = ['c:/marmalade/7.5/extensions/s3ewebview/lib/osx/libs3eWebView.dylib', 'c:/marmalade/7.5/extensions/s3eflurry/lib/osx/libs3eFlurry.dylib']
     wp81_extra_pri = []

@@ -24,9 +24,12 @@ AllowNegativeUniformLocation=1
 [S3E]
 MemMgrMaxAllocWarning=0
 DispFixRot=FixedPortrait
-SplashScreenFile = "textures/dragon.jpg"
-SplashScreenWidth = 720, 480
-SplashScreenHeight = 1280, 720
+SplashScreenBkR=237
+SplashScreenBkG=240
+SplashScreenBkB=183
+SplashScreenFile = "textures/splash1.jpg"
+SplashScreenWidth = 480
+SplashScreenHeight = 720
 [GL]
 VirtualWidth = 480
 VirtualHeight = 720

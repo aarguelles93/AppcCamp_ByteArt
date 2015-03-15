@@ -8,8 +8,8 @@ background.xAnchor = 0.5
 background.yAnchor = 0.5
 
 
-function gotoGame( event )
+function gotoMenu( event )
 	switchToScene("main")
 end
 
-background:addTimer(gotoGame, 2, 1, 0)
+background:addTimer(gotoMenu, 3, 1, 0)

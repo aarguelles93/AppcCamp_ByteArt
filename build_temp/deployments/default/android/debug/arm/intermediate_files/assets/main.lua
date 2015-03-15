@@ -3,11 +3,8 @@
 
 -- Set up 'exit' event listener to allow Ctrl-R functionality
 function exit(event)
-	dbg.print("unrequiring")
-	unrequire("class")
-	unrequire("game")
-	unrequire("grid")
-	unrequire("gem")
+	dbg.print("unrequiring")	
+	unrequire("game1")	
 	unrequire("mainMenu")
 	unrequire("pauseMenu")
 end
@@ -23,14 +20,14 @@ require("splash")
 audio:playStream("audio/POL-spiritdance.mp3", true)
 
 function switchToScene(scene_name)
-	if (scene_name == "game") then
-		director:moveToScene(game.gameScene, {transitionType="pageTurn", transitionTime=0.5})
+	if (scene_name == "game1") then
+		director:moveToScene(game1Scene, {transitionType="pageTurn", transitionTime=1})
 	elseif (scene_name == "main") then
-		director:moveToScene(menuScene, {transitionType="pageTurn", transitionTime=0.5})
+		director:moveToScene(menuScene, {transitionType="pageTurn", transitionTime=1})
 	elseif (scene_name == "pause") then
-		director:moveToScene(pauseScene, {transitionType="pageTurn", transitionTime=0.5})
+		director:moveToScene(pauseScene, {transitionType="pageTurn", transitionTime=1})
 	elseif (scene_name == "sub") then
-		director:moveToScene(submenuScene)
+		director:moveToScene(submenuScene, {transitionType="fade", transitionTime=1})
 	end
 end
 

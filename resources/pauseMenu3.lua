@@ -24,7 +24,7 @@ background.xScale = director.displayWidth / bg_width
 background.yScale = director.displayHeight / bg_height
 
 -- Create Continue Game button
-continueButton = director:createSprite(director.displayCenterX, director.displayCenterY*1.3, "textures/buttons/botonPauseMenuCont.png")
+continueButton = director:createSprite(director.displayCenterX, director.displayCenterY*1.2, "textures/buttons/botonPauseMenuCont.png")
 local atlas = continueButton:getAtlas()
 local atlas_w, atlas_h = atlas:getTextureSize()
 continueButton.xAnchor = 0.5

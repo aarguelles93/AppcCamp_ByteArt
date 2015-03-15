@@ -217,3 +217,8 @@ QUICKCPP LOG: Loading Quick engine...
 QUICKCPP LOG: Loading app...
 Estoy en lvl 2
 ERROR: S3E_AUDIO_ERR_PARAM in s3eAudioPlayFromBuffer
+15/03/15 17:04:23.550: [0x00016488] WINDOW: Enqueuing S3E_WINDOW_GAINED_FOCUS
+Go to game2
+unrequiring
+unrequiring
+-- END TRACE --

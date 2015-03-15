@@ -7,7 +7,7 @@ local play2Button
 
 function playSound()
 	audio:stopStream()
-	audio:playSound("audio/Blop.mp3",false)
+	--audio:playSound("audio/Blop.mp3",false)
 end
 
 function gotoGame1( event )

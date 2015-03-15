@@ -7,6 +7,7 @@ local play2Button
 
 function gotoGame1( event )
 	print("Go to game1")
+	switchToScene("game1")
 end
 function gotoGame2( event )
 	print("Go to game2")
@@ -25,8 +26,9 @@ background.xScale = director.displayWidth / bg_width
 background.yScale = director.displayHeight / bg_height
 
 -- Create Start Game1 button
-local y_pos = director.displayHeight*9 / 10
-play1Button = director:createSprite(director.displayCenterX, y_pos, "textures/buttons/buttonG1.png")
+local x_pos = director.displayWidth*7 / 10
+local y_pos = director.displayHeight*4 / 5
+play1Button = director:createSprite(x_pos, y_pos, "textures/buttons/buttonG1.png")
 play1Button.xAnchor = 0.5
 play1Button.yAnchor = 0.5
 play1Button.xScale = 0.5
@@ -43,8 +45,9 @@ play2Button.yScale = 0.5
 play2Button:addEventListener("touch", gotoGame2)
 
 -- Create Start Game3 button
-y_pos = director.displayHeight*1 / 10
-play2Button = director:createSprite(director.displayCenterX, y_pos, "textures/buttons/buttonG3.png")
+x_pos = director.displayWidth*3 / 10
+y_pos = director.displayHeight*2 / 10
+play2Button = director:createSprite(x_pos, y_pos, "textures/buttons/buttonG3.png")
 play2Button.xAnchor = 0.5
 play2Button.yAnchor = 0.5
 play2Button.xScale = 0.5

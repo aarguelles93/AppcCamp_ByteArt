@@ -5,8 +5,11 @@ menuScene = director:createScene()
 
 local playButton
 
+
+audio:playStream("audio/POL-spiritdance.mp3", true)
+
 function gotoSub(event)
-	switchToScene("sub")
+	switchToScene("sub")	
 end
 
 -- Set Background

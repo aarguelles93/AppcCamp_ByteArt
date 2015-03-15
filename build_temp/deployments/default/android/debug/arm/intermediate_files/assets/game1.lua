@@ -1,5 +1,11 @@
 -- Developed by ByteArt
 -- Game 1
+
+module(..., package.seeall)
+
+
+
+
 game1Scene = director:createScene()
 
 

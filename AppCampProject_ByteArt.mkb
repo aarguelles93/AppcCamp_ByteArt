@@ -46,5 +46,6 @@ deployments
 
     # App ID for Facebook apps
     android-extra-strings='(app_id,fb_app_id)'
+    icon='resources/textures/icon.png'
 
 }

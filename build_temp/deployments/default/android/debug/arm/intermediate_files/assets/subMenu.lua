@@ -5,15 +5,25 @@ submenuScene = director:createScene()
 local play1Button
 local play2Button
 
+function playSound()
+	audio:stopStream()
+	audio:playSound("audio/Blop.mp3",false)
+end
+
 function gotoGame1( event )
 	print("Go to game1")
-	switchToScene("game1")
+	playSound()
+	switchToScene("game1")	
 end
 function gotoGame2( event )
 	print("Go to game2")
+	playSound()
+	switchToScene("game2")	
 end
 function gotoGame3( event )
 	print("Go to game3")
+	playSound()
+	switchToScene("game3")
 end
 
 -- Create game background

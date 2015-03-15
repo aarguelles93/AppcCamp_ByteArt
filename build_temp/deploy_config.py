@@ -66,6 +66,7 @@ class DefaultConfig(DeployConfig):
     wp81_ext_sdk_ref = []
     iphone_link_libdirs = []
     wp81_ext_device_capabilities = []
+    icon = 'c:/Users/Andres Arguelles/Documents/Marmalade Projects/AppcCamp_ByteArt/resources/textures/icon.png'
     linux_ext_lib = []
     ws8_ext_managed_dll = ['c:/marmalade/7.5/extensions/s3efacebook/lib/ws8/s3eFacebookManaged.winmd', 'c:/marmalade/7.5/extensions/s3efacebook/third-party/facebook_ws8_lib/Facebook.Client.dll', 'c:/marmalade/7.5/extensions/s3efacebook/third-party/facebook_ws8_lib/Facebook.dll', 'c:/marmalade/7.5/extensions/s3ewebview/lib/ws8/s3eWebViewManaged.winmd']
     ws8_ext_sdk_manifest_part = []
